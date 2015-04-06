@@ -1,0 +1,85 @@
+body {
+  font-family: Georgia,Times,Times New Roman,serif;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-transform: capitalize;
+}
+.listing-item {
+  float: left;
+  width: 200px;
+  display: block;
+}
+.listing-section {
+  clear: both;
+  width: 100%;
+  text-transform: capitalize;
+  color: #555;
+  margin: 20px 0 10px;
+}
+.reserve {
+  width: 400px;
+}
+.reserve-item {
+  padding: 10px 0;
+}
+.reserve-item label {
+  display: block;
+  margin: 2px 0;
+  width: 100%;
+}
+.reserve-item .inline {
+  display: inline;
+  width: auto;
+}
+.reserve-item input {
+  display: block;
+  width: 100%;
+  padding: 4px 2px;
+}
+.reserve-item input[type=radio] {
+  display: inline;
+  width: auto;
+  padding: 4px 2px;
+}
+.reserve-item textarea {
+  padding: 4px 2px;
+  height: 100px;
+  width: 80%;
+}
+.reserve-item button {
+  font-size: 120%;
+  font-weight: bold;
+}
+.ng-touched.ng-invalid {
+  border: 1px solid red;
+}
+.error {
+  float: right;
+  color: red;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .listing-item {
+    float: none;
+    width: 100%;
+  }
+  .reserve {
+    width: 100%;
+  }
+}
+/* ANIMATIONS */
+.animate-fade-in.ng-enter-stagger {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.animate-fade-in.ng-enter {
+  -webkit-transition: 0.2s linear all;
+  transition: 0.2s linear all;
+  opacity: 0;
+}
+.animate-fade-in.ng-enter.ng-enter-active {
+  opacity: 1;
+}

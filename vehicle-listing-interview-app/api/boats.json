@@ -1,0 +1,42 @@
+[
+	{
+		"oid": "072939c5-2316-4683-9a3f-71b668fd4f09",
+		"year": 2010,
+		"make": "Yamaha",
+		"model": "SX240",
+		"color": "White",
+		"engineHours": 2000,
+		"type": "Bowrider",
+		"price": 30000
+	},
+	{
+		"oid": "6cc5e948-5421-45a5-949f-5700de944b02",
+		"year": 2013,
+		"make": "AB Inflatables",
+		"model": "Nautilus DX",
+		"color": "White",
+		"engineHours": 1000,
+		"type": "Dinghie",
+		"price": 6000
+	},
+	{
+		"oid": "642e1f32-da5d-4f4c-bb01-1a40bb4f91fc",
+		"year": 2015,
+		"make": "Cigarette",
+		"model": "Marauder GT",
+		"color": "Black",
+		"engineHours": 0,
+		"type": "High Performance",
+		"price": 70000
+	},
+	{
+		"oid": "77060a20-6666-4867-9484-3ab1319c7f2c",
+		"year": 2015,
+		"make": "Bottle Rocket",
+		"model": "Rocket V",
+		"color": "Red",
+		"engineHours": 314,
+		"type": "Actual Rocket",
+		"price": 9999999
+	}
+]

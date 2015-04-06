@@ -1,0 +1,90 @@
+[
+	{
+		"oid": "cb0c9374-bd68-4c72-bcea-63478b96c515",
+		"year": 1999,
+		"make": "Honda",
+		"model": "Civic",
+		"color": "Black",
+		"mileage": 96400,
+		"doors": 4,
+		"horsepower": 170,
+		"price": 3000
+	},
+	{
+		"oid": "f202bd05-b064-4cb7-9295-c2bdd3c548b9",
+		"year": 2010,
+		"make": "Honda",
+		"model": "Civic",
+		"color": "Black",
+		"mileage": 43000,
+		"doors": 4,
+		"horsepower": 190,
+		"price": 12000
+	},
+	{
+		"oid": "4f674107-db2a-4349-b96e-03280027c24c",
+		"year": 2015,
+		"make": "Dodge",
+		"model": "Charger",
+		"color": "Orange",
+		"mileage": 6000,
+		"doors": 2,
+		"horsepower": 350,
+		"price": 25000
+	},
+	{
+		"oid": "21420306-4939-4350-9fed-8476070fca1f",
+		"year": 2010,
+		"make": "Toyota",
+		"model": "Camry",
+		"color": "White",
+		"mileage": 67540,
+		"doors": 4,
+		"horsepower": 210,
+		"price": 24000
+	},
+	{
+		"oid": "42d02362-9f27-4d09-8c5c-741623edf54b",
+		"year": 2012,
+		"make": "Toyota",
+		"model": "Rav4",
+		"color": "White",
+		"mileage": 67300,
+		"doors": 4,
+		"horsepower": 240,
+		"price": 19500
+	},
+	{
+		"oid": "c5ac3f38-cbe0-4807-90b9-6de3caf50940",
+		"year": 2013,
+		"make": "Lexus",
+		"model": "RX 300",
+		"color": "Black",
+		"mileage": 34000,
+		"doors": 4,
+		"horsepower": 240,
+		"price": 49000
+	},
+	{
+		"oid": "eee664d5-a16a-480a-ba43-6ef570fd712c",
+		"year": 2015,
+		"make": "Honda",
+		"model": "Accord",
+		"color": "Teal",
+		"mileage": 23000,
+		"doors": 2,
+		"horsepower": 240,
+		"price": 19000
+	},
+	{
+		"oid": "adbc176e-9677-48d1-ad45-e12e9cb9d953",
+		"year": 2009,
+		"make": "Subaru",
+		"model": "WRX",
+		"color": "Blue",
+		"mileage": 70000,
+		"doors": 2,
+		"horsepower": 300,
+		"price": 39000
+	}
+]
