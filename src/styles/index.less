@@ -1,0 +1,130 @@
+@import (inline) './vendor/foundation.css';
+@import (inline) './vendor/font-awesome.css';
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova/ProximaNova-Regular.eot');
+  src: local('Proxima Nova'), local('ProximaNova'), url('../fonts/ProximaNova/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova/ProximaNova-Regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media print {
+  .experience-item {
+    page-break-inside: avoid;
+  }
+  .skillset li {
+    display: inline;
+    float: left;
+    padding-right: 1rem;
+  }
+  .personal {
+    width: 40%;
+    float: left;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Proxima Nova', sans-serif;
+  color: #000;
+}
+
+.resume {
+
+  .cover-letter {
+    padding: 2rem 0 1rem;
+
+    h1 {
+      font-weight: 700;
+      margin: 1rem 0 0;
+    }
+
+    h2 {
+      margin: 0 0 2rem;
+      line-height: 2rem;
+      font-size: 1.5rem;
+      font-style: italic;
+    }
+
+    .description {
+      font-size: 1rem;
+
+      p {
+        font-size: inherit;
+      }
+    }
+  }
+
+  .experience {
+    .experience-item {
+      list-style: none;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      padding: 0;
+
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      h4 {
+        margin-bottom: 1rem;
+        font-size: .75rem;
+
+        i {
+          padding-left: 1rem;
+
+        }
+      }
+
+      h5 {
+        margin: 1rem 0 1rem;
+        font-size: 1rem;
+      }
+
+      h6 {
+        font-size: .9rem;
+        font-weight: 700;
+        margin-bottom: 0;
+      }
+
+      .first {
+        padding-left: 0;
+      }
+
+      .projects {
+        ul {
+          margin: 0;
+          padding: 0;
+        }
+
+        .project {
+          border-left: .5rem solid #ddd;
+          padding: .2rem 1rem;
+          list-style: none;
+        }
+
+        .skills {
+          color: #888;
+          font-size: .9rem;
+          text-transform: lowercase;
+          font-variant: small-caps;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .skillset {
+
+  }
+
+  .education {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "dejanr.github.io",
+  "version": "1.0.0",
+  "description": "Resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dejanr/dejanr.github.io.git"
+  },
+  "author": "Dejan Ranisavljevic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dejanr/dejanr.github.io/issues"
+  },
+  "homepage": "https://github.com/dejanr/dejanr.github.io",
+  "dependencies": {
+    "browser-sync": "^2.5.3",
+    "gulp": "^3.8.11",
+    "gulp-if": "^1.2.5",
+    "gulp-less": "^3.0.2",
+    "gulp-livereload": "^3.8.0",
+    "gulp-rimraf": "^0.1.1",
+    "gulp-sourcemaps": "^1.5.1",
+    "serve": "^1.4.0"
+  }
+}
