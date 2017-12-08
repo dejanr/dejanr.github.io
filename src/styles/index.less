@@ -33,6 +33,23 @@ body {
   color: #000;
 }
 
+abbr {
+  position: relative;
+}
+
+abbr:hover::after {
+  position: absolute;
+  bottom: 100%;
+  left: 100%;
+  display: block;
+  padding: 5px 7px;
+  background-color: rgba(0,0,0,.85);
+  border-radius:3px;
+  color: white;
+  content: attr(title);
+  white-space: nowrap;
+}
+
 .resume {
 
   .cover-letter {
