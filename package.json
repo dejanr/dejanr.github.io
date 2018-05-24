@@ -22,7 +22,7 @@
     "browser-sync": "^2.24.4",
     "gulp": "^3.8.11",
     "gulp-if": "^2.0.2",
-    "gulp-less": "^3.5.0",
+    "gulp-less": "^4.0.0",
     "gulp-livereload": "^3.8.0",
     "gulp-rimraf": "^0.2.2",
     "gulp-sourcemaps": "^2.6.4",
